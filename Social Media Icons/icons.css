@@ -1,0 +1,50 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    transition: background-color 0.3s;
+}
+
+.facebook {
+    background-image: url('facebook-icon.png'); /* Replace with your Facebook icon image */
+}
+
+.twitter {
+    background-image: url('twitter-icon.png'); /* Replace with your Twitter icon image */
+}
+
+.instagram {
+    background-image: url('instagram-icon.png'); /* Replace with your Instagram icon image */
+}
+
+/* Add more styles for additional social media icons as needed */
+
+.social-icons a:hover {
+    background-color: #ffd700; /* Change this to the desired hover color */
+}
